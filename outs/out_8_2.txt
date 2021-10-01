@@ -1,0 +1,10 @@
+---Sorted container---
+Filled container:
+Container contains 1 elements.
+1: It's square matrix: dimension = 2
+3 4 
+5 6 
+Average: 4.5
+
+Time sorted: 0s
+Time after clearing: 0s

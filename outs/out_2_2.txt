@@ -1,0 +1,20 @@
+---Sorted container---
+Filled container:
+Container contains 2 elements.
+1: It's square matrix: dimension = 5
+1 2 3 4 5 
+6 7 8 9 10 
+11 12 13 14 15 
+16 17 18 19 20 
+21 22 23 24 25 
+Average: 13
+2: It's low triangle matrix: dimension = 5
+1 0 0 0 0 
+6 7 0 0 0 
+11 12 13 0 0 
+16 17 18 19 0 
+21 22 23 24 25 
+Average: 9.4
+
+Time sorted: 0s
+Time after clearing: 0s

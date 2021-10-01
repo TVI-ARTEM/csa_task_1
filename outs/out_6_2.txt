@@ -1,0 +1,11 @@
+---Sorted container---
+Filled container:
+Container contains 1 elements.
+1: It's diagonal matrix: dimension = 3
+1 0 0 
+0 2 0 
+0 0 3 
+Average: 0.666667
+
+Time sorted: 0.003s
+Time after clearing: 0.003s

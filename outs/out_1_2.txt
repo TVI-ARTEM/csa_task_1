@@ -1,0 +1,18 @@
+---Sorted container---
+Filled container:
+Container contains 3 elements.
+1: It's square matrix: dimension = 2
+1 2 
+3 4 
+Average: 2.5
+2: It's low triangle matrix: dimension = 2
+1 0 
+2 3 
+Average: 1.5
+3: It's diagonal matrix: dimension = 2
+1 0 
+0 2 
+Average: 0.75
+
+Time sorted: 0.001s
+Time after clearing: 0.001s

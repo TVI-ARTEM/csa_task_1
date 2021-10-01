@@ -1,0 +1,8 @@
+Filled container:
+Container contains 1 elements.
+1: It's diagonal matrix: dimension = 2
+1 0 
+0 2 
+Average: 0.75
+
+Time: 0s
