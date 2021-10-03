@@ -42,7 +42,7 @@ inline bool TryParse(const char* str, int* number) {
         return false;
     }
 
-    *number = std::stoi(str);
+    *number = atoi(str);
     return true;
 }
 

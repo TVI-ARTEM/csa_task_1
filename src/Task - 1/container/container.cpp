@@ -17,6 +17,7 @@ void Clear(container &c) {
     for (int i = 0; i < c.currentLength; ++i) {
         Clear(c.cont[i]);
     }
+    c.currentLength = 0;
 }
 
 //------------------------------------------------------------------------------
@@ -59,8 +60,8 @@ void Out(container &c, ofstream &ofStream) {
 // Сортировка контейнера методом вставки - straight sort.
 void Sort(container &c) {
     for (int i = 1; i < c.currentLength; ++i) {
-        for (auto j = i; j > 0 && Average(*c.cont[j-1]) < Average(*c.cont[j]); --j) {
-            auto temp = c.cont[j-1];
+        for (auto j = i; j > 0 && Average(*c.cont[j - 1]) < Average(*c.cont[j]); --j) {
+            auto temp = c.cont[j - 1];
             c.cont[j - 1] = c.cont[j];
             c.cont[j] = temp;
         }

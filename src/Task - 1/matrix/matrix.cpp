@@ -13,7 +13,7 @@
 
 //------------------------------------------------------------------------------
 // Ввод обобщенной матрицы.
-matrix* In(ifstream &ifStream) {
+matrix*  In(ifstream &ifStream) {
     char* command = new char[matrix::MAX_LENGTH];
     ifStream >> command;
 
